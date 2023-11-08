@@ -31,6 +31,7 @@ chmod +x /usr/local/bin/docker-compose
 # install python 3
 dnf install -y python3-pip python3-devel
 # install ansible
+# dnf install migth be used
 pip3 install ansible
 # install boto3
 pip3 install boto3 botocore
