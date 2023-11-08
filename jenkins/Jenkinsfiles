@@ -13,4 +13,4 @@
      Add post-build action: Record jacoco coverage report
 - Build:
       Add build step: Execute Shell
-      Command:
+      Command: 
