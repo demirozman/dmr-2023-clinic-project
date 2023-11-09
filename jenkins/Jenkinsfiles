@@ -1,8 +1,8 @@
 - job name: petclinic-ci-job
 - job type: Freestyle project
-- GitHub project: https://github.com/[your-github-account]/petclinic-microservices
+- GitHub project: https://github.com/demirozman/dmr-2023-clinic-project
 - Source Code Management: Git
-      Repository URL: https://github.com/[your-github-account]/petclinic-microservices.git
+      Repository URL: https://github.com/demirozman/dmr-2023-clinic-project.git
 - Branches to build:
       Branch Specifier (blank for 'any'): - */dev 
                                           - */feature**
