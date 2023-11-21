@@ -2878,9 +2878,9 @@ pipeline {
 git add .
 git commit -m 'added jenkinsfile petclinic-weekly-qa for release branch'
 git push --set-upstream origin feature/msp-22
-git checkout dev
-git merge feature/msp-22
-git push origin dev
+git add .
+git commit -m 'added jenkinsfile petclinic-weekly-qa for release branch'
+git push --set-upstream origin feature/msp-22
 ```
 
 - Merge `dev` into `release` branch to build and deploy the app on `QA environment` with pipeline.
