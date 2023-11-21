@@ -3232,7 +3232,7 @@ kubectl create namespace cattle-system
 ```bash
 helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
-  --set hostname=rancher.clarusway.us \
+  --set hostname=www.perfectlectures.us \
   --set tls=external \
   --set replicas=1 \
   --set global.cattle.psp.enabled=false
@@ -3254,7 +3254,7 @@ export KUBECONFIG=~/.kube/config
 kubectl --kubeconfig $KUBECONFIG -n cattle-system exec $(kubectl --kubeconfig $KUBECONFIG -n cattle-system get pods -l app=rancher | grep '1/1' | head -1 | awk '{ print $1 }') -- reset-password
 ```
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # hfWGkMbtuwXrdEp5
 ## MSP 25 - Prepare Nexus Server
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
