@@ -83,6 +83,11 @@ pipeline {
         }
     }
     post {
+        success {
+            script {
+               slackSend channel: '#class-chat', message: 'Eisenn-Mann-Herr-Demir hat schaft.Thats all.', teamDomain: 'devopstr14', tokenCredentialId: 'Eisenn-Demir-Mann' 
+            }
+        }
         always {
             echo 'Deleting all local images'
             sh 'docker image prune -af'
