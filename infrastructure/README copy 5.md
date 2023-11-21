@@ -3525,7 +3525,7 @@ rancher --version
   
 * Create Rancher API Key [Rancher API Key](https://rancher.com/docs/rancher/v2.x/en/user-settings/api-keys/#creating-an-api-key) to enable access to the `Rancher` server. Take note, `Access Key (username)` and `Secret Key (password)`.
 
-- On jenkins server, select ***Manage Jenkins --> Manage Credentials --> Jenkins -->   Global credentials (unrestricted) --> Add Credentials***.
+- On jenkins server, select ***Manage Jenkins --> Manage Credentials --> Jenkins -->   Global credentials (unrestricted) --> Add Credentials***.***token-jx28m:pn57wrbd65mqdrqn8229mt982fjwlrrtb6s6hm5m7p9g5cd9bkxhtw***
 
 ```yml
 - credentials kind : Username with password
